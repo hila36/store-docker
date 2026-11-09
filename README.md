@@ -30,7 +30,7 @@ Now, you will write the automation script that builds and pushes your applicatio
   `master` branch.
   2. Define a job that runs on an Ubuntu runner.
   3. **Step 1:** Use the standard GitHub Action to check out your repository's code.
-  4. **Step 2:** Write a step that executes the `docker build` command. You must tag the image specifically so that Docker knows it belongs to your local registry (Hint: you will need to prefix the tag with `localhost:5000/`).
+  4. **Step 2:** Write a step that executes the `docker build` command. You must tag the image specifically so that Docker knows it belongs to your local registry (Hint: you will need to prefix the tag with `localhost:5000/my-app`).
   5. **Step 3:** Write a step that executes the `docker push` command to send your newly built image to your local registry.
 
 ## Stage 3: Execute the Workflow Locally
