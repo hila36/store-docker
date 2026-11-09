@@ -1,7 +1,9 @@
 # Assignment: Local CI/CD Pipeline with GitHub Actions & Docker Desktop
 
 ## Objective
-In this assignment, you will build an automated CI/CD pipeline that builds a Docker image of a web application and pushes it to a local container registry. 
+In this assignment, you will build an automated CI/CD pipeline that builds Docker images for **each service** of a web application (e.g., frontend and backend) and pushes them to a local container registry. 
+
+To simulate a real DevOps environment without relying on cloud infrastructure, you will execute this GitHub Actions workflow entirely locally on your machine using Docker Desktop and the `act` CLI tool. These images will be used in your next assignment when we cover Docker Compose.
 
 To simulate a real DevOps environment without relying on cloud infrastructure, you will execute this GitHub Actions workflow entirely locally on your machine using Docker Desktop and the `act` CLI tool. This image will be used in your next assignment when we cover Docker Compose.
 
